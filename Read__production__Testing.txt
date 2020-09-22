@@ -1,0 +1,3 @@
+## For Backend Testing of functions
+1. cd into functions directory
+2. run "firebase emulators:start" command

@@ -17,6 +17,11 @@ const reducer = (state, action) => {
         ...state,
         basket: [...state.basket, action.item],
       };
+    case "EMPTY_BASKET":
+      return {
+        ...state,
+        basket: [],
+      };
 
     // Here we delete only that product using indexOF action, not with id
     case "REMOVE_FROM_BASKET":
